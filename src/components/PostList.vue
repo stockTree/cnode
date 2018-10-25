@@ -37,7 +37,7 @@ export default {
   name: 'PostList',
   data(){
       return{
-          items:[],
+          items:{},
           pages:1
       }
   },

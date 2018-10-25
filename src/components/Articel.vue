@@ -2,7 +2,7 @@
   <div id="articel" class="article">
     <div class="topic_header">
         <div>
-            <span>{{items |timeF}}</span>
+            <span>{{items.create_at|timeF}}</span>
             <div class="topic_title">{{items.title}}</div>
         </div>
         <ul>
@@ -50,7 +50,7 @@ export default {
   name: 'Articel',
   data(){
       return{
-        items:{}
+        items:[]
     }
   },
   methods:{
